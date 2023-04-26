@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+#logo{
+    width: 200px;
+    padding: 50px;
+    padding-bottom: 897px;
+    z-index: 1000;
+    background-color: #121227;
+}
+
+#sublogo{
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-top: 200px;
+    left: 20px;
+    z-index: 99;
+    background-color: transparent;
+}
+
+.Sneakers{
+    position: absolute;
+    color: black;
+    bottom: 10%;
+    background-color: transparent;
+    top: 8%;
+    left: 54%;
+    font-size: 30px;
+}
+
+.Sneakers h1{
+    position: relative;
+    left: 0px;
+    font-weight: 900;
+    background-color: transparent;
+}
+
+.container{
+    border: 1px solid transparent;
+    background-color: transparent;
+    text-align: center;
+    left: -480px;
+    top: 300px;
+    position: absolute;
+    gap: 200px;
+    display: grid;
+    grid-template-areas: 
+    'conteudo1 conteudo2 conteudo3';
+    transition: all 0.5s;
+}
+
+.container div:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+    
+}
+
+#tn1{
+    color: black;
+    width: 250px;
+    grid-area: conteudo1;
+    transition: all 0.3s;
+    
+}
+
+#tn2{
+    width: 250px;
+    grid-area: conteudo2;
+    transition: all 0.3s;
+}
+
+#tn3{
+    width: 250px;
+    grid-area: conteudo3;
+    transition: all 0.3s;
+}
+
+.container img{
+    width: 250px;
+
+}
+
+.noline{
+    text-decoration: none;
+    color: black;
+}
+
+#nikelogo{
+    position: absolute;
+    top: -10px;
+    left: 200px;
+    width: 100px;
+}
+
+.menu{
+    background: url(imagens/fundo/fundo.jpg);
+}
+
+#tn1 p{
+    background-color: transparent;
+}
